@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    
+    <div class="container-celular">
+        <img src="./img/celular.png" alt="Celular" class="img-celular">
+        <img src="./img/insta1.png" alt="Celular" class="celular">
+        <img src="./img/insta2.png" alt="Celular" class="celular" id="2">
+        <img src="./img/20220217_164708.jpg" alt="holambra" class="holambra" id="eu">
+    </div>
+
+    <div class="container-itens">
+        <div class="container-form">
+
+            <img src="./img/insta-logo.png" alt="Logo do instagram" class="logo-insta">
+
+            <input placeholder="Telefone, nome de usuário ou e-mail">
+            <input placeholder="Senha:">
+
+            <button>Entrar</button>
+
+            <a href="https://facebook.com" class="entrar">Entrar com o facebook</a>
+            <a href="https://www.instagram.com/accounts/password/reset/" class="esqueceu-senha">Esqueceu a senha?</a>
+        </div>
+
+        <div class="nao-tem">
+            <p>Não tem uma conta?</p><a href="https://www.instagram.com/accounts/emailsignup/"
+                class="cadastro">Cadastre-se</a>
+        </div>
+
+        <p class="obtenha-app">Obtenha o aplicativo</p>
+
+        <div class="img-app">
+            <img src="./img/ios.png" alt="Logo Do IOS" class="logo-app">
+            <img src="./img/google.png" alt="Logo do GooglePlay" class="logo-app">
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    let celular = document.getElementById("2")
+    let holambra = document.getElementById("eu")
+
+    function trocarimagem(img) {
+        if (img.style.opacity == 0) {
+            img.style.opacity = 1
+        }
+        else {
+            img.style.opacity = 0
+        }
+    }
+
+    setInterval(function () {
+        trocarimagem(celular)
+        trocarimagem(holambra)
+    }, 3500);
+
+
+
+</script>
+
+
+</html>

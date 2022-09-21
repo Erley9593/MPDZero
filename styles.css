@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-top: 50px;
+    background-position: top center;
+    background-size: 100% auto;
+    background-color: white; 
+}
+
+.logo-insta {
+    margin-bottom: 20px;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.container-itens {
+    width: 330px;
+    padding-bottom: 40px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px 40px 20px 40px;
+    border-radius: 10px;
+}
+
+input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: #262626;
+}
+
+button {
+    height: 30px;
+    background: #0095f6;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.entrar {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.nao-tem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px solid #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.cadastro {
+    color: #0095f6;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.obtenha-app {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-app {
+    width: 140px;
+}
+
+.celular {
+    height: 528px;
+    position: absolute;
+    left: 151px;
+    top: 24px;
+    transition: opacity 3s ease-in-out;
+   
+}
+
+.container-celular {
+     position: relative; 
+}
+
+.holambra {
+    height: 82px;
+    position: absolute;
+     left: 58px;
+    top: 265px;
+    width: 78px; 
+    transition: opacity 3s ease-in-out;
+}
+
