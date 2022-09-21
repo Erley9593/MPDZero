@@ -6,7 +6,7 @@
 
 Projeto construído no evento Missão Programação do Zero (Com Rodolfo Mori).
 
- [Clique aqui para acessar](https://erley9593.github.io/MPDZERO/)
+ [Clique aqui para acessar](https://erley9593.github.io/MPDZero/)
 
 
 ##  Tecnologias
